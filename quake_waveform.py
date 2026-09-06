@@ -71,12 +71,11 @@ def fetch_latest_qualifying_event():
     end = datetime.now(timezone.utc)
 
     start = (
-        end -
-        timedelta(days=LOOKBACK_DAYS)
+        end
+        - timedelta(days=LOOKBACK_DAYS)
     )
 
     params = {
-
         "format": "geojson",
 
         "starttime":
@@ -109,7 +108,6 @@ def fetch_latest_qualifying_event():
             20
     }
 
-
     response = requests.get(
         USGS_QUERY,
         params=params,
@@ -118,12 +116,10 @@ def fetch_latest_qualifying_event():
 
     response.raise_for_status()
 
-
     features = (
         response.json()
         .get("features", [])
     )
-
 
     # Ignore quarry blasts and explosions
     # when USGS identifies them as such.
@@ -140,11 +136,8 @@ def fetch_latest_qualifying_event():
             or "earthquake"
         ).lower()
 
-
         if event_type == "earthquake":
-
             return feature
-
 
     return None
 
@@ -159,7 +152,6 @@ def fetch_waveform(event_time_ms):
         event_time_ms / 1000.0
     )
 
-
     # Public display window:
     #
     # 30 sec before earthquake origin
@@ -170,55 +162,41 @@ def fetch_waveform(event_time_ms):
     start = origin - 30
     end = origin + 150
 
-
     client = Client(
         "RASPISHAKE"
     )
 
-
     stream = client.get_waveforms(
-
         NETWORK,
         STATION,
         LOCATION,
         CHANNEL,
-
         start,
         end,
-
         attach_response=False
     )
-
 
     stream.merge(
         method=1,
         fill_value="interpolate"
     )
 
-
     trace = stream[0]
 
-
-    # Remove baseline / trend
+    # Remove baseline and linear trend.
 
     trace.detrend("linear")
     trace.detrend("demean")
 
-
-    # Useful regional-earthquake display band
+    # Useful display band for local/regional earthquakes.
 
     trace.filter(
-
         "bandpass",
-
         freqmin=0.7,
         freqmax=15.0,
-
         corners=4,
-
         zerophase=True
     )
-
 
     return (
         trace,
@@ -242,23 +220,40 @@ def make_plot(
 
     props = event["properties"]
 
-
     magnitude = float(
         props["mag"]
     )
-
 
     place = (
         props.get("place")
         or "Regional earthquake"
     )
 
-
     event_id = event["id"]
-
 
     usgs_url = (
         props.get("url", "")
+    )
+
+
+    # -----------------------------------------------------
+    # START AND END TIMES IN PACIFIC TIME
+    # -----------------------------------------------------
+
+    start_dt = (
+        start.datetime
+        .replace(
+            tzinfo=timezone.utc
+        )
+        .astimezone(PACIFIC)
+    )
+
+    end_dt = (
+        end.datetime
+        .replace(
+            tzinfo=timezone.utc
+        )
+        .astimezone(PACIFIC)
     )
 
 
@@ -268,21 +263,12 @@ def make_plot(
 
     sample_seconds = trace.times()
 
-
-    start_datetime_utc = (
-        start.datetime
-        .replace(
-            tzinfo=timezone.utc
-        )
-    )
-
-
     sample_times = [
 
-        (
-            start_datetime_utc +
-            timedelta(seconds=float(sec))
-        ).astimezone(PACIFIC)
+        start_dt
+        + timedelta(
+            seconds=float(sec)
+        )
 
         for sec in sample_seconds
     ]
@@ -295,11 +281,9 @@ def make_plot(
     origin_datetime = (
 
         origin.datetime
-
         .replace(
             tzinfo=timezone.utc
         )
-
         .astimezone(PACIFIC)
     )
 
@@ -309,38 +293,29 @@ def make_plot(
     # -----------------------------------------------------
 
     fig, ax = plt.subplots(
-
         figsize=(12, 3.6),
-
         dpi=160
     )
 
-
     ax.plot(
-
         sample_times,
-
         trace.data,
-
         linewidth=0.7
     )
 
 
     # -----------------------------------------------------
-    # ORIGIN-TIME LINE
+    # EARTHQUAKE ORIGIN-TIME LINE
     # -----------------------------------------------------
 
     ax.axvline(
-
         origin_datetime,
-
         linewidth=1.0,
-
         alpha=0.45
     )
 
 
-    # Label the origin line.
+    # Public-facing label.
 
     ax.annotate(
 
@@ -358,30 +333,39 @@ def make_plot(
 
         xytext=(5, 0),
 
-        textcoords=
-            "offset points",
+        textcoords="offset points",
 
         ha="left",
-
         va="top",
 
         fontsize=8,
-
         alpha=0.70
     )
 
 
     # -----------------------------------------------------
     # X AXIS — PACIFIC CLOCK TIME
+    #
+    # Force ticks to begin at the actual start of the
+    # recording rather than allowing Matplotlib to choose
+    # its own 30-second alignment.
     # -----------------------------------------------------
 
-    ax.xaxis.set_major_locator(
+    tick_times = []
 
-        mdates.SecondLocator(
-            interval=30
+    tick = start_dt
+
+    while tick <= end_dt:
+
+        tick_times.append(tick)
+
+        tick += timedelta(
+            seconds=30
         )
-    )
 
+    ax.set_xticks(
+        tick_times
+    )
 
     ax.xaxis.set_major_formatter(
 
@@ -400,16 +384,12 @@ def make_plot(
         "Pacific Time"
     )
 
-
     ax.set_ylabel(
         "Relative ground motion"
     )
 
-
     ax.set_title(
-
         f"M{magnitude:.1f} · {place}",
-
         fontsize=12
     )
 
@@ -417,9 +397,8 @@ def make_plot(
     # -----------------------------------------------------
     # CLEAN UP Y AXIS
     #
-    # This is intentionally a visual seismogram,
-    # rather than a calibrated engineering-motion
-    # product.
+    # This is intentionally a visual seismogram rather
+    # than a calibrated engineering-motion product.
     # -----------------------------------------------------
 
     ax.set_yticks([])
@@ -430,11 +409,8 @@ def make_plot(
     # -----------------------------------------------------
 
     ax.grid(
-
         True,
-
         linewidth=0.35,
-
         alpha=0.22
     )
 
@@ -443,37 +419,18 @@ def make_plot(
     # LIMIT GRAPH EXACTLY TO REQUESTED WINDOW
     # -----------------------------------------------------
 
-    start_dt = (
-        start.datetime
-        .replace(
-            tzinfo=timezone.utc
-        )
-        .astimezone(PACIFIC)
-    )
-
-
-    end_dt = (
-        end.datetime
-        .replace(
-            tzinfo=timezone.utc
-        )
-        .astimezone(PACIFIC)
-    )
-
-
     ax.set_xlim(
         start_dt,
         end_dt
     )
 
 
-    # Prevent time labels from colliding.
+    # Keep the clock labels horizontal.
 
     fig.autofmt_xdate(
         rotation=0,
         ha="center"
     )
-
 
     fig.tight_layout()
 
@@ -483,13 +440,9 @@ def make_plot(
     # -----------------------------------------------------
 
     fig.savefig(
-
-        OUTDIR /
-        "latest-waveform.png",
-
+        OUTDIR / "latest-waveform.png",
         bbox_inches="tight"
     )
-
 
     plt.close(fig)
 
@@ -499,12 +452,9 @@ def make_plot(
     # -----------------------------------------------------
 
     utc_dt = datetime.fromtimestamp(
-
         props["time"] / 1000.0,
-
         tz=timezone.utc
     )
-
 
     metadata = {
 
@@ -551,10 +501,8 @@ def make_plot(
             )
     }
 
-
     (
-        OUTDIR /
-        "latest.json"
+        OUTDIR / "latest.json"
     ).write_text(
 
         json.dumps(
@@ -576,7 +524,6 @@ def main():
         fetch_latest_qualifying_event()
     )
 
-
     if not event:
 
         print(
@@ -586,45 +533,33 @@ def main():
 
         return
 
-
     props = event[
         "properties"
     ]
 
-
     event_time = (
         datetime.fromtimestamp(
-
-            props["time"] /
-            1000.0,
-
+            props["time"] / 1000.0,
             tz=timezone.utc
         )
     )
 
 
-    # Raspberry Shake historical data
-    # generally lags real time.
-    #
-    # Give the archive approximately
+    # Raspberry Shake historical data generally lags
+    # real time. Give the archive approximately
     # 40 minutes before requesting it.
 
     if (
-
         datetime.now(
             timezone.utc
         )
-
         - event_time
-
         < timedelta(
             minutes=40
         )
-
     ):
 
         print(
-
             "Latest qualifying earthquake "
             "is still too recent for "
             "reliable archive access."
@@ -634,11 +569,8 @@ def main():
 
 
     print(
-
         f'Processing {event["id"]}: '
-
         f'M{props["mag"]} '
-
         f'{props.get("place")}'
     )
 
@@ -648,14 +580,12 @@ def main():
         origin,
         start,
         end
-
     ) = fetch_waveform(
         props["time"]
     )
 
 
     make_plot(
-
         trace,
         event,
         origin,
@@ -669,5 +599,4 @@ def main():
 # ---------------------------------------------------------
 
 if __name__ == "__main__":
-
     main()
