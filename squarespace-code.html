@@ -1,0 +1,130 @@
+<!-- WHAT BRAMBLEY RECORDED -->
+<div id="brambley-recorded" class="brambley-recorded" hidden>
+  <div class="brambley-recorded-kicker">WHAT BRAMBLEY RECORDED</div>
+  <h3 id="brambley-event-title"></h3>
+  <div id="brambley-event-time" class="brambley-event-time"></div>
+
+  <img
+    id="brambley-waveform"
+    alt="Seismogram recorded at Brambley"
+    loading="lazy"
+  >
+
+  <div class="brambley-waveform-note">
+    Vertical ground motion recorded by Raspberry Shake R1C99.
+    The vertical line marks the earthquake origin time; seismic waves arrive later.
+  </div>
+
+  <a id="brambley-usgs-link" target="_blank" rel="noopener">
+    View earthquake at USGS →
+  </a>
+</div>
+
+<style>
+  .brambley-recorded {
+    margin: 32px 0;
+  }
+
+  .brambley-recorded-kicker {
+    font-size: 0.76rem;
+    letter-spacing: 0.12em;
+    opacity: 0.62;
+    margin-bottom: 8px;
+  }
+
+  .brambley-recorded h3 {
+    margin: 0 0 4px;
+  }
+
+  .brambley-event-time {
+    opacity: 0.68;
+    margin-bottom: 18px;
+  }
+
+  #brambley-waveform {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 8px 0 12px;
+  }
+
+  .brambley-waveform-note {
+    font-size: 0.86rem;
+    opacity: 0.68;
+    margin-bottom: 10px;
+  }
+</style>
+
+<script>
+(async function () {
+
+  /*
+   * REPLACE THESE TWO VALUES AFTER GITHUB PAGES IS ENABLED.
+   *
+   * Example:
+   * https://YOURNAME.github.io/brambley-seismic/latest.json
+   * https://YOURNAME.github.io/brambley-seismic/latest-waveform.png
+   */
+
+  const DATA_URL =
+    'https://YOURNAME.github.io/brambley-seismic/latest.json';
+
+  const IMAGE_URL =
+    'https://YOURNAME.github.io/brambley-seismic/latest-waveform.png';
+
+  try {
+
+    const response = await fetch(
+      DATA_URL + '?v=' + Date.now()
+    );
+
+    if (!response.ok) return;
+
+    const event = await response.json();
+
+    const panel =
+      document.getElementById('brambley-recorded');
+
+    const title =
+      document.getElementById('brambley-event-title');
+
+    const time =
+      document.getElementById('brambley-event-time');
+
+    const image =
+      document.getElementById('brambley-waveform');
+
+    const usgs =
+      document.getElementById('brambley-usgs-link');
+
+    title.textContent =
+      'M ' + Number(event.magnitude).toFixed(1) +
+      ' · ' + event.place;
+
+    time.textContent =
+      new Intl.DateTimeFormat(
+        'en-US',
+        {
+          dateStyle: 'long',
+          timeStyle: 'short',
+          timeZone: 'America/Los_Angeles'
+        }
+      ).format(new Date(event.origin_utc)) +
+      ' Pacific Time';
+
+    image.src =
+      IMAGE_URL + '?v=' +
+      encodeURIComponent(event.updated_utc);
+
+    usgs.href = event.usgs_url;
+
+    panel.hidden = false;
+
+  }
+
+  catch(error) {
+    console.error('Unable to load Brambley waveform:', error);
+  }
+
+})();
+</script>
