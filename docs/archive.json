@@ -1,0 +1,62 @@
+[
+  {
+    "event_id": "us6000tjl2",
+    "magnitude": 7.4,
+    "place": "2 km SE of San Jos\u00e9 del Palmar, Colombia",
+    "origin_utc": "2026-08-10T12:34:28.009000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjl2",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us6000tjl2.png",
+    "signal_score": 99.9
+  },
+  {
+    "event_id": "us7000t1bu",
+    "magnitude": 7.3,
+    "place": "60 km WSW of Puerto Madero, Mexico",
+    "origin_utc": "2026-07-17T14:48:39.881000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1bu",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000t1bu.png",
+    "signal_score": 27.9
+  },
+  {
+    "event_id": "us6000t7zp",
+    "magnitude": 7.5,
+    "place": "20 km W of Catia La Mar, Venezuela",
+    "origin_utc": "2026-06-24T22:05:04.053000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us6000t7zp.png",
+    "signal_score": 20.8
+  },
+  {
+    "event_id": "us6000t7zc",
+    "magnitude": 7.2,
+    "place": "20 km E of San Felipe, Venezuela",
+    "origin_utc": "2026-06-24T22:04:31.806000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zc",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us6000t7zc.png",
+    "signal_score": 20.6
+  },
+  {
+    "event_id": "us6000sri7",
+    "magnitude": 7.4,
+    "place": "102 km ENE of Miyako, Japan",
+    "origin_utc": "2026-04-20T07:52:58.908000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sri7",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us6000sri7.png",
+    "signal_score": 11.5
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "us6000tkt2": {
+    "status": "rejected",
+    "processed_utc": "2026-09-06T05:46:13.588130Z",
+    "reason": "signal_below_threshold",
+    "signal_score": 1.61
+  },
+  "us6000tjl2": {
+    "status": "accepted",
+    "processed_utc": "2026-09-06T05:46:19.968883Z",
+    "signal_score": 99.9
+  },
+  "us7000t1bu": {
+    "status": "accepted",
+    "processed_utc": "2026-09-06T05:46:23.309958Z",
+    "signal_score": 27.9
+  },
+  "us6000t7zp": {
+    "status": "accepted",
+    "processed_utc": "2026-09-06T05:46:26.179896Z",
+    "signal_score": 20.8
+  },
+  "us6000t7zc": {
+    "status": "accepted",
+    "processed_utc": "2026-09-06T05:46:30.138755Z",
+    "signal_score": 20.6
+  },
+  "us7000srb1": {
+    "status": "rejected",
+    "processed_utc": "2026-09-06T05:46:32.096607Z",
+    "reason": "signal_below_threshold",
+    "signal_score": 1.07
+  },
+  "us6000sri7": {
+    "status": "accepted",
+    "processed_utc": "2026-09-06T05:46:34.882365Z",
+    "signal_score": 11.5
+  },
+  "us6000slss": {
+    "status": "rejected",
+    "processed_utc": "2026-09-06T05:46:38.657430Z",
+    "reason": "signal_below_threshold",
+    "signal_score": 1.7
+  }
+}
