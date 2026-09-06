@@ -58,5 +58,65 @@
     "channel": "EHZ",
     "waveform": "archive/us6000sri7.png",
     "signal_score": 11.5
+  },
+  {
+    "event_id": "us7000s8q0",
+    "magnitude": 7.3,
+    "place": "51 km ENE of Luganville, Vanuatu",
+    "origin_utc": "2026-03-30T08:44:13.780000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s8q0",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000s8q0.png",
+    "signal_score": 10.8
+  },
+  {
+    "event_id": "us7000s789",
+    "magnitude": 7.5,
+    "place": "158 km W of Neiafu, Tonga",
+    "origin_utc": "2026-03-24T04:37:51.627000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s789",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000s789.png",
+    "signal_score": 28.7
+  },
+  {
+    "event_id": "us6000rtdt",
+    "magnitude": 7.6,
+    "place": "2025 Aomori Prefecture, Japan Earthquake",
+    "origin_utc": "2025-12-08T14:15:09.896000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rtdt",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us6000rtdt.png",
+    "signal_score": 11.0
+  },
+  {
+    "event_id": "us6000rfwz",
+    "magnitude": 7.4,
+    "place": "12 km E of Santiago, Philippines",
+    "origin_utc": "2025-10-10T01:43:59.585000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rfwz",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us6000rfwz.png",
+    "signal_score": 3.1
+  },
+  {
+    "event_id": "us7000qx2g",
+    "magnitude": 7.8,
+    "place": "140 km E of Petropavlovsk-Kamchatsky, Russia",
+    "origin_utc": "2025-09-18T18:58:14.939000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx2g",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000qx2g.png",
+    "signal_score": 8.5
   }
 ]

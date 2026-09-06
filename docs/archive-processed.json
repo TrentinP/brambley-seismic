@@ -41,5 +41,47 @@
     "processed_utc": "2026-09-06T05:46:38.657430Z",
     "reason": "signal_below_threshold",
     "signal_score": 1.7
+  },
+  "us7000s8q0": {
+    "status": "accepted",
+    "processed_utc": "2026-09-06T06:25:01.479677Z",
+    "signal_score": 10.8
+  },
+  "us7000s789": {
+    "status": "accepted",
+    "processed_utc": "2026-09-06T06:25:04.403354Z",
+    "signal_score": 28.7
+  },
+  "us6000sasz": {
+    "status": "rejected",
+    "processed_utc": "2026-09-06T06:25:08.642419Z",
+    "reason": "signal_below_threshold",
+    "signal_score": 1.68
+  },
+  "us6000rtdt": {
+    "status": "accepted",
+    "processed_utc": "2026-09-06T06:25:13.451516Z",
+    "signal_score": 11.0
+  },
+  "us6000rsy1": {
+    "status": "error",
+    "processed_utc": "2026-09-06T06:25:14.626394Z",
+    "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
+  },
+  "us6000rgf4": {
+    "status": "rejected",
+    "processed_utc": "2026-09-06T06:25:17.176060Z",
+    "reason": "signal_below_threshold",
+    "signal_score": 2.4
+  },
+  "us6000rfwz": {
+    "status": "accepted",
+    "processed_utc": "2026-09-06T06:25:20.647868Z",
+    "signal_score": 3.1
+  },
+  "us7000qx2g": {
+    "status": "accepted",
+    "processed_utc": "2026-09-06T06:25:26.716257Z",
+    "signal_score": 8.5
   }
 }
