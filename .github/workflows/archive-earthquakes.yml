@@ -1,0 +1,44 @@
+name: Build notable earthquake archive
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+
+    env:
+      BRAMBLEY_LAT: ${{ secrets.BRAMBLEY_LAT }}
+      BRAMBLEY_LON: ${{ secrets.BRAMBLEY_LON }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build archive
+        run: python archive_earthquakes.py
+
+      - name: Commit archive changes
+        run: |
+          git config user.name "Brambley Observatory"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/archive docs/archive.json docs/archive-processed.json
+          if git diff --cached --quiet; then
+            echo "No archive changes to publish."
+          else
+            git commit -m "Update notable earthquake archive"
+            git push
+          fi
