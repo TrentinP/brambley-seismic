@@ -1,0 +1,11 @@
+{
+  "event_id": "uw714095342",
+  "magnitude": 3.7,
+  "place": "20 km E of Castle Rock, Washington",
+  "origin_utc": "2026-09-05T11:09:28.280000Z",
+  "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714095342",
+  "station": "R1C99",
+  "channel": "EHZ",
+  "image": "latest-waveform.png",
+  "updated_utc": "2026-09-06T00:45:00.484348Z"
+}
