@@ -202,5 +202,29 @@
     "channel": "EHZ",
     "waveform": "archive/us7000pcdl.png",
     "signal_score": 42.9
+  },
+  {
+    "event_id": "us7000n7n8",
+    "magnitude": 7.0,
+    "place": "102 km E of Petropavlovsk-Kamchatsky, Russia",
+    "origin_utc": "2024-08-17T19:10:26.820000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n7n8",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000n7n8.png",
+    "signal_score": 9.5
+  },
+  {
+    "event_id": "us6000nith",
+    "magnitude": 7.1,
+    "place": "2024 Hyuganada Sea, Japan Earthquake",
+    "origin_utc": "2024-08-08T07:42:55.206000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nith",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us6000nith.png",
+    "signal_score": 12.4
   }
 ]
