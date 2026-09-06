@@ -118,5 +118,41 @@
     "channel": "EHZ",
     "waveform": "archive/us7000qx2g.png",
     "signal_score": 8.5
+  },
+  {
+    "event_id": "us7000qvw5",
+    "magnitude": 7.4,
+    "place": "105 km E of Petropavlovsk-Kamchatsky, Russia",
+    "origin_utc": "2025-09-13T02:37:56.761000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qvw5",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000qvw5.png",
+    "signal_score": 14.9
+  },
+  {
+    "event_id": "us7000qdyl",
+    "magnitude": 7.4,
+    "place": "2025 Eastern Kamchatka, Russia Earthquake",
+    "origin_utc": "2025-07-20T06:49:04.327000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdyl",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000qdyl.png",
+    "signal_score": 16.6
+  },
+  {
+    "event_id": "us7000qd1y",
+    "magnitude": 7.3,
+    "place": "2025 Sand Point, Alaska Earthquake",
+    "origin_utc": "2025-07-16T20:37:41.667000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qd1y",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000qd1y.png",
+    "signal_score": 98.8
   }
 ]
