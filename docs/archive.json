@@ -154,5 +154,53 @@
     "channel": "EHZ",
     "waveform": "archive/us7000qd1y.png",
     "signal_score": 98.8
+  },
+  {
+    "event_id": "us7000pntq",
+    "magnitude": 7.0,
+    "place": "61 km SSE of Pangai, Tonga",
+    "origin_utc": "2025-03-30T12:18:50.362000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pntq",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000pntq.png",
+    "signal_score": 5.5
+  },
+  {
+    "event_id": "uw62078906",
+    "magnitude": 4.5,
+    "place": "2025 Orcas Island, Washington",
+    "origin_utc": "2025-03-03T13:02:37.850000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62078906",
+    "scope": "regional",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/uw62078906.png",
+    "signal_score": 60.8
+  },
+  {
+    "event_id": "us7000pfbs",
+    "magnitude": 4.8,
+    "place": "28 km W of Squamish, Canada",
+    "origin_utc": "2025-02-21T21:26:32.781000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pfbs",
+    "scope": "regional",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000pfbs.png",
+    "signal_score": 83.2
+  },
+  {
+    "event_id": "us7000pcdl",
+    "magnitude": 7.6,
+    "place": "210 km SSW of George Town, Cayman Islands",
+    "origin_utc": "2025-02-08T23:23:14.697000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pcdl",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000pcdl.png",
+    "signal_score": 42.9
   }
 ]
