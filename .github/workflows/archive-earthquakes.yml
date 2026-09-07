@@ -28,17 +28,21 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Build archive
+      - name: Build notable archive
         run: python archive_earthquakes.py
+
+      - name: Build recent M3 regional capture feed
+        run: python recent_regional_captures.py
 
       - name: Commit archive changes
         run: |
           git config user.name "Brambley Observatory"
           git config user.email "actions@users.noreply.github.com"
           git add docs/archive docs/archive.json docs/archive-processed.json
+          git add docs/recent-captures docs/recent-captures.json docs/recent-captures-processed.json
           if git diff --cached --quiet; then
             echo "No archive changes to publish."
           else
-            git commit -m "Update notable earthquake archive"
+            git commit -m "Update earthquake observations"
             git push
           fi
