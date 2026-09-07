@@ -310,5 +310,17 @@
     "channel": "EHZ",
     "waveform": "archive/us7000lgwp.png",
     "signal_score": 3.4
+  },
+  {
+    "event_id": "uw61965081",
+    "magnitude": 4.3,
+    "place": "Port Townsend, WA",
+    "origin_utc": "2023-10-09T02:21:08.960000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61965081",
+    "scope": "regional",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/uw61965081.png",
+    "signal_score": 268.3
   }
 ]
