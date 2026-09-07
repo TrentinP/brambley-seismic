@@ -226,5 +226,41 @@
     "channel": "EHZ",
     "waveform": "archive/us6000nith.png",
     "signal_score": 12.4
+  },
+  {
+    "event_id": "us7000n05d",
+    "magnitude": 7.4,
+    "place": "41 km ESE of San Pedro de Atacama, Chile",
+    "origin_utc": "2024-07-19T01:50:48.571000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n05d",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000n05d.png",
+    "signal_score": 57.5
+  },
+  {
+    "event_id": "us6000n8tq",
+    "magnitude": 7.2,
+    "place": "10 km WSW of Atiquipa, Peru",
+    "origin_utc": "2024-06-28T05:36:36.902000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n8tq",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us6000n8tq.png",
+    "signal_score": 14.6
+  },
+  {
+    "event_id": "us7000m9g4",
+    "magnitude": 7.4,
+    "place": "15 km S of Hualien City, Taiwan",
+    "origin_utc": "2024-04-02T23:58:12.173000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m9g4",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000m9g4.png",
+    "signal_score": 25.0
   }
 ]
