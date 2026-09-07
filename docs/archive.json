@@ -262,5 +262,53 @@
     "channel": "EHZ",
     "waveform": "archive/us7000m9g4.png",
     "signal_score": 25.0
+  },
+  {
+    "event_id": "us7000lsze",
+    "magnitude": 7.0,
+    "place": "128 km WNW of Aykol, China",
+    "origin_utc": "2024-01-22T18:09:04.340000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lsze",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000lsze.png",
+    "signal_score": 5.8
+  },
+  {
+    "event_id": "us6000m0xl",
+    "magnitude": 7.5,
+    "place": "2024 Noto Peninsula, Japan Earthquake",
+    "origin_utc": "2024-01-01T07:10:09.476000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m0xl",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us6000m0xl.png",
+    "signal_score": 21.2
+  },
+  {
+    "event_id": "uw61977871",
+    "magnitude": 4.0,
+    "place": "6 km W of Quilcene, Washington",
+    "origin_utc": "2023-12-24T15:14:04.220000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61977871",
+    "scope": "regional",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/uw61977871.png",
+    "signal_score": 78.3
+  },
+  {
+    "event_id": "us7000lgwp",
+    "magnitude": 7.1,
+    "place": "118 km S of Isangel, Vanuatu",
+    "origin_utc": "2023-12-07T12:56:30.184000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lgwp",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000lgwp.png",
+    "signal_score": 3.4
   }
 ]
