@@ -322,5 +322,53 @@
     "channel": "EHZ",
     "waveform": "archive/uw61965081.png",
     "signal_score": 268.3
+  },
+  {
+    "event_id": "us7000kg30",
+    "magnitude": 7.2,
+    "place": "2023 Sand Point, Alaska Earthquake",
+    "origin_utc": "2023-07-16T06:48:21.158000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kg30",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000kg30.png",
+    "signal_score": 36.3
+  },
+  {
+    "event_id": "us7000k8qh",
+    "magnitude": 7.2,
+    "place": "274 km SW of Houma, Tonga",
+    "origin_utc": "2023-06-15T18:06:28.572000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k8qh",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000k8qh.png",
+    "signal_score": 21.8
+  },
+  {
+    "event_id": "us6000kdce",
+    "magnitude": 7.1,
+    "place": "southeast of the Loyalty Islands",
+    "origin_utc": "2023-05-20T01:50:59.158000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kdce",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us6000kdce.png",
+    "signal_score": 8.8
+  },
+  {
+    "event_id": "us6000kd0n",
+    "magnitude": 7.7,
+    "place": "southeast of the Loyalty Islands",
+    "origin_utc": "2023-05-19T02:57:03.172000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kd0n",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us6000kd0n.png",
+    "signal_score": 35.2
   }
 ]
