@@ -31,6 +31,9 @@ jobs:
       - name: Build notable archive
         run: python archive_earthquakes.py
 
+      - name: Add public earthquake coordinates and depth
+        run: python enrich_archive_metadata.py
+
       - name: Build recent M3 regional capture feed
         run: python recent_regional_captures.py
 
