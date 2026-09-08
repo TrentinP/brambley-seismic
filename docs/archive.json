@@ -9,7 +9,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us6000tjl2.png",
-    "signal_score": 99.9
+    "signal_score": 99.9,
+    "latitude": 4.8836,
+    "longitude": -76.2182,
+    "depth_km": 108.2
   },
   {
     "event_id": "us7000t1bu",
@@ -21,7 +24,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us7000t1bu.png",
-    "signal_score": 27.9
+    "signal_score": 27.9,
+    "latitude": 14.571,
+    "longitude": -92.9624,
+    "depth_km": 22.0
   },
   {
     "event_id": "us6000t7zp",
@@ -33,7 +39,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us6000t7zp.png",
-    "signal_score": 20.8
+    "signal_score": 20.8,
+    "latitude": 10.5955,
+    "longitude": -67.2205,
+    "depth_km": 10.0
   },
   {
     "event_id": "us6000t7zc",
@@ -45,7 +54,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us6000t7zc.png",
-    "signal_score": 20.6
+    "signal_score": 20.6,
+    "latitude": 10.3713,
+    "longitude": -68.5564,
+    "depth_km": 10.0
   },
   {
     "event_id": "us6000sri7",
@@ -57,7 +69,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us6000sri7.png",
-    "signal_score": 11.5
+    "signal_score": 11.5,
+    "latitude": 39.971,
+    "longitude": 143.0592,
+    "depth_km": 25.0
   },
   {
     "event_id": "us7000s8q0",
@@ -69,7 +84,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us7000s8q0.png",
-    "signal_score": 10.8
+    "signal_score": 10.8,
+    "latitude": -15.2865,
+    "longitude": 167.5825,
+    "depth_km": 120.6
   },
   {
     "event_id": "us7000s789",
@@ -81,7 +99,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us7000s789.png",
-    "signal_score": 28.7
+    "signal_score": 28.7,
+    "latitude": -18.5387,
+    "longitude": -175.4763,
+    "depth_km": 234.0
   },
   {
     "event_id": "us6000rtdt",
@@ -93,7 +114,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us6000rtdt.png",
-    "signal_score": 11.0
+    "signal_score": 11.0,
+    "latitude": 40.9984,
+    "longitude": 142.1836,
+    "depth_km": 40.7
   },
   {
     "event_id": "us6000rfwz",
@@ -105,7 +129,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us6000rfwz.png",
-    "signal_score": 3.1
+    "signal_score": 3.1,
+    "latitude": 7.2866,
+    "longitude": 126.6902,
+    "depth_km": 59.4
   },
   {
     "event_id": "us7000qx2g",
@@ -117,7 +144,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us7000qx2g.png",
-    "signal_score": 8.5
+    "signal_score": 8.5,
+    "latitude": 53.1426,
+    "longitude": 160.7206,
+    "depth_km": 27.0
   },
   {
     "event_id": "us7000qvw5",
@@ -129,7 +159,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us7000qvw5.png",
-    "signal_score": 14.9
+    "signal_score": 14.9,
+    "latitude": 53.1969,
+    "longitude": 160.1901,
+    "depth_km": 58.0
   },
   {
     "event_id": "us7000qdyl",
@@ -141,7 +174,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us7000qdyl.png",
-    "signal_score": 16.6
+    "signal_score": 16.6,
+    "latitude": 52.8301,
+    "longitude": 160.6816,
+    "depth_km": 34.0
   },
   {
     "event_id": "us7000qd1y",
@@ -153,7 +189,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us7000qd1y.png",
-    "signal_score": 98.8
+    "signal_score": 98.8,
+    "latitude": 54.5652,
+    "longitude": -160.4689,
+    "depth_km": 38.0
   },
   {
     "event_id": "us7000pntq",
@@ -165,7 +204,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us7000pntq.png",
-    "signal_score": 5.5
+    "signal_score": 5.5,
+    "latitude": -20.3036,
+    "longitude": -174.0718,
+    "depth_km": 29.0
   },
   {
     "event_id": "uw62078906",
@@ -177,7 +219,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/uw62078906.png",
-    "signal_score": 60.8
+    "signal_score": 60.8,
+    "latitude": 48.61117,
+    "longitude": -122.80517,
+    "depth_km": 15.8
   },
   {
     "event_id": "us7000pfbs",
@@ -189,7 +234,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us7000pfbs.png",
-    "signal_score": 83.2
+    "signal_score": 83.2,
+    "latitude": 49.6928,
+    "longitude": -123.5454,
+    "depth_km": 10.0
   },
   {
     "event_id": "us7000pcdl",
@@ -201,7 +249,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us7000pcdl.png",
-    "signal_score": 42.9
+    "signal_score": 42.9,
+    "latitude": 17.6506,
+    "longitude": -82.395,
+    "depth_km": 14.3
   },
   {
     "event_id": "us7000n7n8",
@@ -213,7 +264,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us7000n7n8.png",
-    "signal_score": 9.5
+    "signal_score": 9.5,
+    "latitude": 52.9308,
+    "longitude": 160.1331,
+    "depth_km": 29.0
   },
   {
     "event_id": "us6000nith",
@@ -225,7 +279,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us6000nith.png",
-    "signal_score": 12.4
+    "signal_score": 12.4,
+    "latitude": 31.7599,
+    "longitude": 131.5021,
+    "depth_km": 24.0
   },
   {
     "event_id": "us7000n05d",
@@ -237,7 +294,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us7000n05d.png",
-    "signal_score": 57.5
+    "signal_score": 57.5,
+    "latitude": -23.0791,
+    "longitude": -67.8404,
+    "depth_km": 127.3
   },
   {
     "event_id": "us6000n8tq",
@@ -249,7 +309,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us6000n8tq.png",
-    "signal_score": 14.6
+    "signal_score": 14.6,
+    "latitude": -15.8277,
+    "longitude": -74.454,
+    "depth_km": 24.0
   },
   {
     "event_id": "us7000m9g4",
@@ -261,7 +324,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us7000m9g4.png",
-    "signal_score": 25.0
+    "signal_score": 25.0,
+    "latitude": 23.8356,
+    "longitude": 121.5976,
+    "depth_km": 40.0
   },
   {
     "event_id": "us7000lsze",
@@ -273,7 +339,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us7000lsze.png",
-    "signal_score": 5.8
+    "signal_score": 5.8,
+    "latitude": 41.2555,
+    "longitude": 78.6538,
+    "depth_km": 13.0
   },
   {
     "event_id": "us6000m0xl",
@@ -285,7 +354,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us6000m0xl.png",
-    "signal_score": 21.2
+    "signal_score": 21.2,
+    "latitude": 37.4874,
+    "longitude": 137.271,
+    "depth_km": 10.0
   },
   {
     "event_id": "uw61977871",
@@ -297,7 +369,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/uw61977871.png",
-    "signal_score": 78.3
+    "signal_score": 78.3,
+    "latitude": 47.81967,
+    "longitude": -122.96,
+    "depth_km": 52.4
   },
   {
     "event_id": "us7000lgwp",
@@ -309,7 +384,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us7000lgwp.png",
-    "signal_score": 3.4
+    "signal_score": 3.4,
+    "latitude": -20.6152,
+    "longitude": 169.3089,
+    "depth_km": 48.0
   },
   {
     "event_id": "uw61965081",
@@ -321,7 +399,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/uw61965081.png",
-    "signal_score": 268.3
+    "signal_score": 268.3,
+    "latitude": 48.04017,
+    "longitude": -122.73083,
+    "depth_km": 54.9
   },
   {
     "event_id": "us7000kg30",
@@ -333,7 +414,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us7000kg30.png",
-    "signal_score": 36.3
+    "signal_score": 36.3,
+    "latitude": 54.3926,
+    "longitude": -160.762,
+    "depth_km": 25.0
   },
   {
     "event_id": "us7000k8qh",
@@ -345,7 +429,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us7000k8qh.png",
-    "signal_score": 21.8
+    "signal_score": 21.8,
+    "latitude": -22.9936,
+    "longitude": -177.1067,
+    "depth_km": 179.0
   },
   {
     "event_id": "us6000kdce",
@@ -357,7 +444,10 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us6000kdce.png",
-    "signal_score": 8.8
+    "signal_score": 8.8,
+    "latitude": -23.0421,
+    "longitude": 170.5603,
+    "depth_km": 27.3
   },
   {
     "event_id": "us6000kd0n",
@@ -369,6 +459,39 @@
     "station": "R1C99",
     "channel": "EHZ",
     "waveform": "archive/us6000kd0n.png",
-    "signal_score": 35.2
+    "signal_score": 35.2,
+    "latitude": -23.2063,
+    "longitude": 170.7423,
+    "depth_km": 18.1
+  },
+  {
+    "event_id": "us6000kawn",
+    "magnitude": 7.6,
+    "place": "82 km WNW of Hihifo, Tonga",
+    "origin_utc": "2023-05-10T16:02:00.334000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kawn",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us6000kawn.png",
+    "signal_score": 43.7,
+    "latitude": -15.6278,
+    "longitude": -174.4925,
+    "depth_km": 210.0
+  },
+  {
+    "event_id": "us6000k6mg",
+    "magnitude": 7.1,
+    "place": "Kermadec Islands, New Zealand",
+    "origin_utc": "2023-04-24T00:41:55.894000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k6mg",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us6000k6mg.png",
+    "signal_score": 6.7,
+    "latitude": -29.9574,
+    "longitude": -177.8386,
+    "depth_km": 46.8
   }
 ]
