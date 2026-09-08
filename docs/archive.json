@@ -493,5 +493,20 @@
     "latitude": -29.9574,
     "longitude": -177.8386,
     "depth_km": 46.8
+  },
+  {
+    "event_id": "us7000jkbd",
+    "magnitude": 7.0,
+    "place": "Kermadec Islands region",
+    "origin_utc": "2023-03-16T00:56:00.149000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000jkbd",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000jkbd.png",
+    "signal_score": 6.4,
+    "latitude": -30.1741,
+    "longitude": -176.2047,
+    "depth_km": 10.0
   }
 ]
