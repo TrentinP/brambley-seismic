@@ -523,5 +523,20 @@
     "latitude": 49.2714,
     "longitude": -126.0923,
     "depth_km": 33.4
+  },
+  {
+    "event_id": "us7000irfb",
+    "magnitude": 7.0,
+    "place": "18 km SW of Malango, Solomon Islands",
+    "origin_utc": "2022-11-22T02:03:06.891000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000irfb",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000irfb.png",
+    "signal_score": 4.5,
+    "latitude": -9.8198,
+    "longitude": 159.6033,
+    "depth_km": 14.0
   }
 ]
