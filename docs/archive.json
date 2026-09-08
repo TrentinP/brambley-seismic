@@ -508,5 +508,20 @@
     "latitude": -30.1741,
     "longitude": -176.2047,
     "depth_km": 10.0
+  },
+  {
+    "event_id": "us7000ishe",
+    "magnitude": 4.9,
+    "place": "18 km NW of Tofino, Canada",
+    "origin_utc": "2022-11-26T03:50:17.526000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ishe",
+    "scope": "regional",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000ishe.png",
+    "signal_score": 47.6,
+    "latitude": 49.2714,
+    "longitude": -126.0923,
+    "depth_km": 33.4
   }
 ]
