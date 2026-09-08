@@ -538,5 +538,20 @@
     "latitude": -9.8198,
     "longitude": 159.6033,
     "depth_km": 14.0
+  },
+  {
+    "event_id": "us7000ip8h",
+    "magnitude": 7.0,
+    "place": "Fiji region",
+    "origin_utc": "2022-11-12T07:09:13.514000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ip8h",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000ip8h.png",
+    "signal_score": 10.1,
+    "latitude": -20.1112,
+    "longitude": -178.3453,
+    "depth_km": 579.0
   }
 ]
