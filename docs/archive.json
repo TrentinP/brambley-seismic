@@ -583,5 +583,20 @@
     "latitude": 44.54033,
     "longitude": -122.55083,
     "depth_km": 13.2
+  },
+  {
+    "event_id": "us7000i9bw",
+    "magnitude": 7.6,
+    "place": "35 km SSW of Aguililla, Mexico",
+    "origin_utc": "2022-09-19T18:05:08.217000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i9bw",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000i9bw.png",
+    "signal_score": 63.4,
+    "latitude": 18.4552,
+    "longitude": -102.9561,
+    "depth_km": 26.9
   }
 ]
