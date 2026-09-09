@@ -553,5 +553,20 @@
     "latitude": -20.1112,
     "longitude": -178.3453,
     "depth_km": 579.0
+  },
+  {
+    "event_id": "us7000ip0l",
+    "magnitude": 7.3,
+    "place": "205 km ESE of Neiafu, Tonga",
+    "origin_utc": "2022-11-11T10:48:46.710000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ip0l",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000ip0l.png",
+    "signal_score": 12.6,
+    "latitude": -19.2881,
+    "longitude": -172.1471,
+    "depth_km": 37.0
   }
 ]
