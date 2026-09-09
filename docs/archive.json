@@ -568,5 +568,20 @@
     "latitude": -19.2881,
     "longitude": -172.1471,
     "depth_km": 37.0
+  },
+  {
+    "event_id": "uw61886506",
+    "magnitude": 4.4,
+    "place": "16 km ESE of Lacomb, Oregon",
+    "origin_utc": "2022-10-07T12:52:36.010000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61886506",
+    "scope": "regional",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/uw61886506.png",
+    "signal_score": 40.6,
+    "latitude": 44.54033,
+    "longitude": -122.55083,
+    "depth_km": 13.2
   }
 ]
