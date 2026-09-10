@@ -613,5 +613,20 @@
     "latitude": -21.1909,
     "longitude": 170.2666,
     "depth_km": 137.0
+  },
+  {
+    "event_id": "us6000iitd",
+    "magnitude": 7.6,
+    "place": "70 km E of Kainantu, Papua New Guinea",
+    "origin_utc": "2022-09-10T23:47:00.233000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iitd",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us6000iitd.png",
+    "signal_score": 10.2,
+    "latitude": -6.2944,
+    "longitude": 146.5038,
+    "depth_km": 116.0
   }
 ]
