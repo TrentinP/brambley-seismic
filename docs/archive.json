@@ -598,5 +598,20 @@
     "latitude": 18.4552,
     "longitude": -102.9561,
     "depth_km": 26.9
+  },
+  {
+    "event_id": "us7000i7ya",
+    "magnitude": 7.0,
+    "place": "209 km SSE of Isangel, Vanuatu",
+    "origin_utc": "2022-09-14T11:04:06.558000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i7ya",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000i7ya.png",
+    "signal_score": 21.2,
+    "latitude": -21.1909,
+    "longitude": 170.2666,
+    "depth_km": 137.0
   }
 ]
