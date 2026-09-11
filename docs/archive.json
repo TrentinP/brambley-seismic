@@ -643,5 +643,20 @@
     "latitude": -14.9076,
     "longitude": -70.2924,
     "depth_km": 236.0
+  },
+  {
+    "event_id": "us6000h519",
+    "magnitude": 7.3,
+    "place": "57 km ENE of Namie, Japan",
+    "origin_utc": "2022-03-16T14:36:30.997000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000h519",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us6000h519.png",
+    "signal_score": 18.6,
+    "latitude": 37.7132,
+    "longitude": 141.5793,
+    "depth_km": 41.0
   }
 ]
