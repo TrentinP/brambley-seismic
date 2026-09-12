@@ -673,5 +673,20 @@
     "latitude": -21.1265,
     "longitude": 174.8958,
     "depth_km": 527.0
+  },
+  {
+    "event_id": "us7000f93v",
+    "magnitude": 7.0,
+    "place": "Acapulco, Mexico",
+    "origin_utc": "2021-09-08T01:47:47.437000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000f93v",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000f93v.png",
+    "signal_score": 52.5,
+    "latitude": 16.9465,
+    "longitude": -99.753,
+    "depth_km": 20.0
   }
 ]
