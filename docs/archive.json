@@ -658,5 +658,20 @@
     "latitude": 37.7132,
     "longitude": 141.5793,
     "depth_km": 41.0
+  },
+  {
+    "event_id": "us6000fr0b",
+    "magnitude": 7.3,
+    "place": "Vanuatu region",
+    "origin_utc": "2021-10-02T06:29:17.897000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000fr0b",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us6000fr0b.png",
+    "signal_score": 10.5,
+    "latitude": -21.1265,
+    "longitude": 174.8958,
+    "depth_km": 527.0
   }
 ]
