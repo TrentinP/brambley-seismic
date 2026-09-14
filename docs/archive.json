@@ -718,5 +718,20 @@
     "latitude": 55.3635,
     "longitude": -157.8876,
     "depth_km": 35.0
+  },
+  {
+    "event_id": "us7000e54r",
+    "magnitude": 7.3,
+    "place": "Southern Qinghai, China",
+    "origin_utc": "2021-05-21T18:04:13.565000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000e54r",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000e54r.png",
+    "signal_score": 5.9,
+    "latitude": 34.5983,
+    "longitude": 98.2513,
+    "depth_km": 10.0
   }
 ]
