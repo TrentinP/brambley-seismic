@@ -703,5 +703,20 @@
     "latitude": 18.4335,
     "longitude": -73.4822,
     "depth_km": 10.0
+  },
+  {
+    "event_id": "ak0219neiszm",
+    "magnitude": 8.2,
+    "place": "2021 Chignik, Alaska Earthquake",
+    "origin_utc": "2021-07-29T06:15:49.188000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0219neiszm",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/ak0219neiszm.png",
+    "signal_score": 304.5,
+    "latitude": 55.3635,
+    "longitude": -157.8876,
+    "depth_km": 35.0
   }
 ]
