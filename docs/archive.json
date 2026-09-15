@@ -763,5 +763,20 @@
     "latitude": -29.7228,
     "longitude": -177.2794,
     "depth_km": 28.9
+  },
+  {
+    "event_id": "us7000dfk3",
+    "magnitude": 7.4,
+    "place": "Kermadec Islands, New Zealand",
+    "origin_utc": "2021-03-04T17:41:23.370000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000dfk3",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us7000dfk3.png",
+    "signal_score": 5.7,
+    "latitude": -29.6768,
+    "longitude": -177.8398,
+    "depth_km": 43.0
   }
 ]
