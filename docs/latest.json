@@ -1,11 +1,11 @@
 {
   "event_id": "uw714102491",
-  "magnitude": 3.8,
-  "place": "34 km SSW of Ucluelet, Canada",
-  "origin_utc": "2026-09-15T09:30:49.320000Z",
+  "magnitude": 3.2,
+  "place": "21 km SSW of Ucluelet, Canada",
+  "origin_utc": "2026-09-15T09:30:51.090000Z",
   "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714102491",
   "station": "R1C99",
   "channel": "EHZ",
   "image": "latest-waveform.png",
-  "updated_utc": "2026-09-15T15:43:49.557551Z"
+  "updated_utc": "2026-09-15T19:15:44.186451Z"
 }
