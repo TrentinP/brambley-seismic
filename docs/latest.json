@@ -1,11 +1,11 @@
 {
-  "event_id": "uw714095342",
+  "event_id": "uw714102491",
   "magnitude": 3.8,
-  "place": "20 km E of Castle Rock, Washington",
-  "origin_utc": "2026-09-05T11:09:28.270000Z",
-  "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714095342",
+  "place": "34 km SSW of Ucluelet, Canada",
+  "origin_utc": "2026-09-15T09:30:49.320000Z",
+  "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714102491",
   "station": "R1C99",
   "channel": "EHZ",
   "image": "latest-waveform.png",
-  "updated_utc": "2026-09-12T09:24:15.457521Z"
+  "updated_utc": "2026-09-15T11:47:12.648300Z"
 }
