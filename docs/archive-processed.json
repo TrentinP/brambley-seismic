@@ -65,8 +65,8 @@
   },
   "us6000rsy1": {
     "status": "error",
-    "processed_utc": "2026-09-15T11:55:11.141976Z",
-    "error": "FDSNNoServiceException: No FDSN services could be discovered at 'https://data.raspberryshake.org'. This could be due to a temporary service outage or an invalid FDSN service address."
+    "processed_utc": "2026-09-15T17:09:10.191624Z",
+    "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us6000rgf4": {
     "status": "rejected",
@@ -97,13 +97,13 @@
   },
   "us6000qw60": {
     "status": "error",
-    "processed_utc": "2026-09-15T11:55:28.614449Z",
+    "processed_utc": "2026-09-15T17:09:13.019055Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us6000qvsf": {
     "status": "error",
-    "processed_utc": "2026-09-15T11:55:29.240507Z",
-    "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
+    "processed_utc": "2026-09-15T17:09:13.524890Z",
+    "error": "FDSNBadGatewayException: Service responds: Bad gateway \nHTTP Status code: 502\nDetailed response of server:\n\nBad Gateway\n<html>\n<head><title>502 Bad Gateway</title></head>\n<body>\n<center><h1>502 Bad Gateway</h1></center>\n<hr><center>nginx/1.27.3</center>\n</body>\n</html>"
   },
   "us7000qdyl": {
     "status": "accepted",
@@ -161,8 +161,8 @@
   },
   "nc75095651": {
     "status": "error",
-    "processed_utc": "2026-09-15T11:55:29.950126Z",
-    "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
+    "processed_utc": "2026-09-15T17:09:14.103119Z",
+    "error": "FDSNBadGatewayException: Service responds: Bad gateway \nHTTP Status code: 502\nDetailed response of server:\n\nBad Gateway\n<html>\n<head><title>502 Bad Gateway</title></head>\n<body>\n<center><h1>502 Bad Gateway</h1></center>\n<hr><center>nginx/1.27.3</center>\n</body>\n</html>"
   },
   "us7000n7n8": {
     "status": "accepted",
@@ -305,18 +305,18 @@
   },
   "us7000j553": {
     "status": "error",
-    "processed_utc": "2026-09-15T11:55:30.679143Z",
-    "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
+    "processed_utc": "2026-09-15T17:09:14.558260Z",
+    "error": "FDSNBadGatewayException: Service responds: Bad gateway \nHTTP Status code: 502\nDetailed response of server:\n\nBad Gateway\n<html>\n<head><title>502 Bad Gateway</title></head>\n<body>\n<center><h1>502 Bad Gateway</h1></center>\n<hr><center>nginx/1.27.3</center>\n</body>\n</html>"
   },
   "us7000j36j": {
     "status": "error",
-    "processed_utc": "2026-09-15T11:55:31.297115Z",
-    "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
+    "processed_utc": "2026-09-15T17:09:15.200810Z",
+    "error": "FDSNBadGatewayException: Service responds: Bad gateway \nHTTP Status code: 502\nDetailed response of server:\n\nBad Gateway\n<html>\n<head><title>502 Bad Gateway</title></head>\n<body>\n<center><h1>502 Bad Gateway</h1></center>\n<hr><center>nginx/1.27.3</center>\n</body>\n</html>"
   },
   "us7000j2yw": {
     "status": "error",
-    "processed_utc": "2026-09-15T11:55:31.870844Z",
-    "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
+    "processed_utc": "2026-09-15T17:09:15.705459Z",
+    "error": "FDSNBadGatewayException: Service responds: Bad gateway \nHTTP Status code: 502\nDetailed response of server:\n\nBad Gateway\n<html>\n<head><title>502 Bad Gateway</title></head>\n<body>\n<center><h1>502 Bad Gateway</h1></center>\n<hr><center>nginx/1.27.3</center>\n</body>\n</html>"
   },
   "us7000ishe": {
     "status": "accepted",
@@ -467,5 +467,11 @@
     "status": "accepted",
     "processed_utc": "2026-09-15T11:55:34.720826Z",
     "signal_score": 5.7
+  },
+  "us7000dffl": {
+    "status": "rejected",
+    "processed_utc": "2026-09-15T17:09:17.537916Z",
+    "reason": "signal_below_threshold",
+    "signal_score": 2.94
   }
 }
