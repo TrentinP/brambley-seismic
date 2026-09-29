@@ -1,5 +1,20 @@
 [
   {
+    "event_id": "uw714111952",
+    "magnitude": 4.2,
+    "place": "6 km WNW of Wauna, Washington",
+    "origin_utc": "2026-09-29T21:05:56.370000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714111952",
+    "scope": "regional",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/uw714111952.png",
+    "signal_score": 10.7,
+    "latitude": 47.40033,
+    "longitude": -122.722,
+    "depth_km": 27.9
+  },
+  {
     "event_id": "us6000tjl2",
     "magnitude": 7.4,
     "place": "2 km SE of San Jos\u00e9 del Palmar, Colombia",
