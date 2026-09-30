@@ -65,8 +65,8 @@
   },
   "us6000rsy1": {
     "status": "error",
-    "processed_utc": "2026-09-30T05:44:17.178900Z",
-    "error": "FDSNBadGatewayException: Service responds: Bad gateway \nHTTP Status code: 502\nDetailed response of server:\n\nBad Gateway\n<html>\n<head><title>502 Bad Gateway</title></head>\n<body>\n<center><h1>502 Bad Gateway</h1></center>\n<hr><center>nginx/1.27.3</center>\n</body>\n</html>"
+    "processed_utc": "2026-09-30T12:48:10.820194Z",
+    "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us6000rgf4": {
     "status": "rejected",
@@ -97,12 +97,12 @@
   },
   "us6000qw60": {
     "status": "error",
-    "processed_utc": "2026-09-30T05:44:17.710826Z",
+    "processed_utc": "2026-09-30T12:48:11.442508Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us6000qvsf": {
     "status": "error",
-    "processed_utc": "2026-09-30T05:44:18.261053Z",
+    "processed_utc": "2026-09-30T12:48:12.061864Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us7000qdyl": {
@@ -161,7 +161,7 @@
   },
   "nc75095651": {
     "status": "error",
-    "processed_utc": "2026-09-30T05:44:18.864347Z",
+    "processed_utc": "2026-09-30T12:48:12.878674Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us7000n7n8": {
@@ -305,17 +305,17 @@
   },
   "us7000j553": {
     "status": "error",
-    "processed_utc": "2026-09-30T05:44:19.361783Z",
+    "processed_utc": "2026-09-30T12:48:13.436663Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us7000j36j": {
     "status": "error",
-    "processed_utc": "2026-09-30T05:44:19.819129Z",
+    "processed_utc": "2026-09-30T12:48:14.034324Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us7000j2yw": {
     "status": "error",
-    "processed_utc": "2026-09-30T05:44:20.299790Z",
+    "processed_utc": "2026-09-30T12:48:14.842322Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us7000ishe": {
@@ -476,7 +476,7 @@
   },
   "us6000dher": {
     "status": "error",
-    "processed_utc": "2026-09-30T05:44:20.843652Z",
+    "processed_utc": "2026-09-30T12:48:15.430298Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "uw714111952": {
