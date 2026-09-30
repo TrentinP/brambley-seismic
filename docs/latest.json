@@ -1,11 +1,11 @@
 {
-  "event_id": "uw714102491",
-  "magnitude": 3.2,
-  "place": "21 km SSW of Ucluelet, Canada",
-  "origin_utc": "2026-09-15T09:30:51.090000Z",
-  "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714102491",
+  "event_id": "uw714111952",
+  "magnitude": 4.2,
+  "place": "6 km WNW of Wauna, Washington",
+  "origin_utc": "2026-09-29T21:05:56.370000Z",
+  "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714111952",
   "station": "R1C99",
   "channel": "EHZ",
   "image": "latest-waveform.png",
-  "updated_utc": "2026-09-22T04:59:59.013565Z"
+  "updated_utc": "2026-09-30T00:46:59.521565Z"
 }
