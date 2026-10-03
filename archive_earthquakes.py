@@ -11,6 +11,7 @@ import numpy as np
 import requests
 from obspy import UTCDateTime
 from obspy.clients.fdsn import Client
+from obspy.clients.fdsn.header import FDSNNoDataException
 from obspy.geodetics import gps2dist_azimuth, kilometer2degrees
 from obspy.taup import TauPyModel
 
@@ -44,6 +45,8 @@ REGIONAL_MIN_MAG = 4.0
 GLOBAL_MIN_MAG = 7.0
 BACKFILL_YEARS = 6
 MAX_EVENTS_PER_RUN = 8
+MAX_ERROR_ATTEMPTS = 3
+FAILURE_MARKER = Path(".archive-workflow-failed")
 
 REGIONAL_SNR_THRESHOLD = 4.0
 GLOBAL_SNR_THRESHOLD = 3.0
@@ -348,14 +351,52 @@ def process_candidate(event):
     return "accepted", make_public_entry(event, mode, snr_value, filename)
 
 
+def utc_now_string():
+    return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+
+
+def unavailable_record(processed_utc=None):
+    return {
+        "status": "unavailable",
+        "processed_utc": processed_utc or utc_now_string(),
+        "reason": "waveform_not_available",
+    }
+
+
+def migrate_no_data_errors(processed):
+    """Convert historical HTTP 204 errors into terminal unavailable records."""
+    changed = False
+    for event_id, record in list(processed.items()):
+        if (
+            record.get("status") == "error"
+            and "FDSNNoDataException" in record.get("error", "")
+        ):
+            processed[event_id] = unavailable_record(record.get("processed_utc"))
+            changed = True
+    return changed
+
+
+def processing_error_record(exc, previous_attempts=0):
+    attempts = int(previous_attempts) + 1
+    return {
+        "status": "failed" if attempts >= MAX_ERROR_ATTEMPTS else "error",
+        "processed_utc": utc_now_string(),
+        "attempts": attempts,
+        "error_type": type(exc).__name__,
+        "error": str(exc),
+    }
+
+
 def main():
     archive = read_json(ARCHIVE_JSON, [])
     processed = read_json(PROCESSED_JSON, {})
     archived_ids = {item["event_id"] for item in archive}
+    FAILURE_MARKER.unlink(missing_ok=True)
 
     candidates = fetch_candidates()
     handled = 0
-    changed = False
+    changed = migrate_no_data_errors(processed)
+    terminal_failures = []
 
     for event in candidates:
         if handled >= MAX_EVENTS_PER_RUN:
@@ -366,7 +407,7 @@ def main():
             continue
 
         existing = processed.get(event_id, {})
-        if existing.get("status") in {"accepted", "rejected"}:
+        if existing.get("status") in {"accepted", "rejected", "unavailable", "failed"}:
             continue
 
         try:
@@ -381,7 +422,7 @@ def main():
                 archived_ids.add(event_id)
                 processed[event_id] = {
                     "status": "accepted",
-                    "processed_utc": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+                    "processed_utc": utc_now_string(),
                     "signal_score": payload["signal_score"],
                 }
                 changed = True
@@ -389,20 +430,28 @@ def main():
             elif status == "rejected":
                 processed[event_id] = {
                     "status": "rejected",
-                    "processed_utc": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+                    "processed_utc": utc_now_string(),
                     **(payload or {}),
                 }
                 changed = True
 
+        except FDSNNoDataException:
+            handled += 1
+            print("  No waveform data are available for this event window (HTTP 204).")
+            processed[event_id] = unavailable_record()
+            changed = True
+
         except Exception as exc:
             handled += 1
-            print(f"  ERROR: {type(exc).__name__}: {exc}")
-            # Errors remain retryable on later runs.
-            processed[event_id] = {
-                "status": "error",
-                "processed_utc": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-                "error": f"{type(exc).__name__}: {exc}",
-            }
+            record = processing_error_record(exc, existing.get("attempts", 0))
+            terminal = record["status"] == "failed"
+            print(
+                f"  ERROR ({record['attempts']}/{MAX_ERROR_ATTEMPTS}): "
+                f"{type(exc).__name__}: {exc}"
+            )
+            processed[event_id] = record
+            if terminal:
+                terminal_failures.append(event_id)
             changed = True
 
     archive.sort(key=lambda item: item.get("origin_utc", ""), reverse=True)
@@ -410,6 +459,12 @@ def main():
     if changed or not ARCHIVE_JSON.exists():
         write_json(ARCHIVE_JSON, archive)
         write_json(PROCESSED_JSON, processed)
+
+    if terminal_failures:
+        FAILURE_MARKER.write_text("\n".join(terminal_failures) + "\n", encoding="utf-8")
+        print(
+            "Terminal processing failure(s): " + ", ".join(terminal_failures)
+        )
 
     print(f"Archive now contains {len(archive)} event(s).")
 
