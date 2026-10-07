@@ -1,13 +1,1 @@
-[
-  {
-    "event_id": "uw714111952",
-    "magnitude": 4.2,
-    "place": "6 km WNW of Wauna, Washington",
-    "origin_utc": "2026-09-29T21:05:56.370000Z",
-    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714111952",
-    "station": "R1C99",
-    "channel": "EHZ",
-    "waveform": "recent-captures/uw714111952.png",
-    "signal_score": 10.7
-  }
-]
+[]
