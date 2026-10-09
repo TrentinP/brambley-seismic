@@ -1,5 +1,20 @@
 [
   {
+    "event_id": "us6000u18k",
+    "magnitude": 7.7,
+    "place": "12 km WSW of Pitaloza Arriba, Panama",
+    "origin_utc": "2026-10-09T17:56:06.036000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us6000u18k.png",
+    "signal_score": 19.6,
+    "latitude": 7.5868,
+    "longitude": -80.769,
+    "depth_km": 12.6
+  },
+  {
     "event_id": "uw714111952",
     "magnitude": 4.2,
     "place": "6 km WNW of Wauna, Washington",
