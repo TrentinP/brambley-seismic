@@ -65,8 +65,8 @@
   },
   "us6000rsy1": {
     "status": "error",
-    "processed_utc": "2026-10-10T12:44:43.400490Z",
-    "error": "FDSNNoServiceException: No FDSN services could be discovered at 'https://data.raspberryshake.org'. This could be due to a temporary service outage or an invalid FDSN service address."
+    "processed_utc": "2026-10-10T21:52:50.644542Z",
+    "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us6000rgf4": {
     "status": "rejected",
@@ -97,12 +97,12 @@
   },
   "us6000qw60": {
     "status": "error",
-    "processed_utc": "2026-10-10T12:44:43.864104Z",
-    "error": "FDSNNoServiceException: No FDSN services could be discovered at 'https://data.raspberryshake.org'. This could be due to a temporary service outage or an invalid FDSN service address."
+    "processed_utc": "2026-10-10T21:52:51.231151Z",
+    "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us6000qvsf": {
     "status": "error",
-    "processed_utc": "2026-10-10T12:44:47.015854Z",
+    "processed_utc": "2026-10-10T21:52:51.842862Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us7000qdyl": {
@@ -161,7 +161,7 @@
   },
   "nc75095651": {
     "status": "error",
-    "processed_utc": "2026-10-10T12:44:47.563149Z",
+    "processed_utc": "2026-10-10T21:52:52.423530Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us7000n7n8": {
@@ -305,17 +305,17 @@
   },
   "us7000j553": {
     "status": "error",
-    "processed_utc": "2026-10-10T12:44:52.574443Z",
+    "processed_utc": "2026-10-10T21:52:52.870704Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us7000j36j": {
     "status": "error",
-    "processed_utc": "2026-10-10T12:44:53.045626Z",
+    "processed_utc": "2026-10-10T21:52:55.558557Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us7000j2yw": {
     "status": "error",
-    "processed_utc": "2026-10-10T12:44:56.914323Z",
+    "processed_utc": "2026-10-10T21:52:56.247928Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us7000ishe": {
@@ -476,7 +476,7 @@
   },
   "us6000dher": {
     "status": "error",
-    "processed_utc": "2026-10-10T12:44:57.402459Z",
+    "processed_utc": "2026-10-10T21:52:56.740666Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "uw714111952": {
