@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "event_id": "uw714121212",
+    "magnitude": 3.1,
+    "place": "20 km E of Forks, Washington",
+    "origin_utc": "2026-10-17T03:37:39.230000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714121212",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "recent-captures/uw714121212.png",
+    "signal_score": 38.1
+  }
+]
