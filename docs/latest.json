@@ -1,11 +1,11 @@
 {
-  "event_id": "uw714121212",
-  "magnitude": 3.1,
-  "place": "18 km ESE of Forks, Washington",
-  "origin_utc": "2026-10-17T03:37:39.040000Z",
-  "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714121212",
+  "event_id": "uw714124012",
+  "magnitude": 3.0,
+  "place": "3 km W of Columbia City, Oregon",
+  "origin_utc": "2026-10-22T14:25:19.290000Z",
+  "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714124012",
   "station": "R1C99",
   "channel": "EHZ",
   "image": "latest-waveform.png",
-  "updated_utc": "2026-10-22T13:13:26.344442Z"
+  "updated_utc": "2026-10-22T18:01:14.455714Z"
 }
