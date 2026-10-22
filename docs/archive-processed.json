@@ -65,7 +65,7 @@
   },
   "us6000rsy1": {
     "status": "error",
-    "processed_utc": "2026-10-22T12:06:58.197394Z",
+    "processed_utc": "2026-10-22T17:21:12.737357Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us6000rgf4": {
@@ -97,12 +97,12 @@
   },
   "us6000qw60": {
     "status": "error",
-    "processed_utc": "2026-10-22T12:06:58.754651Z",
+    "processed_utc": "2026-10-22T17:21:13.459098Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us6000qvsf": {
     "status": "error",
-    "processed_utc": "2026-10-22T12:06:59.308837Z",
+    "processed_utc": "2026-10-22T17:21:14.068455Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us7000qdyl": {
@@ -161,7 +161,7 @@
   },
   "nc75095651": {
     "status": "error",
-    "processed_utc": "2026-10-22T12:07:00.053251Z",
+    "processed_utc": "2026-10-22T17:21:14.719627Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us7000n7n8": {
@@ -305,17 +305,17 @@
   },
   "us7000j553": {
     "status": "error",
-    "processed_utc": "2026-10-22T12:07:00.548161Z",
+    "processed_utc": "2026-10-22T17:21:15.246929Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us7000j36j": {
     "status": "error",
-    "processed_utc": "2026-10-22T12:07:01.050441Z",
+    "processed_utc": "2026-10-22T17:21:15.923967Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us7000j2yw": {
     "status": "error",
-    "processed_utc": "2026-10-22T12:07:01.704574Z",
+    "processed_utc": "2026-10-22T17:21:16.477675Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us7000ishe": {
@@ -488,5 +488,10 @@
     "status": "accepted",
     "processed_utc": "2026-10-09T22:45:40.345843Z",
     "signal_score": 19.6
+  },
+  "us6000u43g": {
+    "status": "accepted",
+    "processed_utc": "2026-10-22T17:21:11.958238Z",
+    "signal_score": 3.9
   }
 }

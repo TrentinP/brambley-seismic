@@ -1,5 +1,20 @@
 [
   {
+    "event_id": "us6000u43g",
+    "magnitude": 7.0,
+    "place": "191 km ENE of Nagqu, China",
+    "origin_utc": "2026-10-22T14:33:40.353000Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/us6000u43g.png",
+    "signal_score": 3.9,
+    "latitude": 32.3805,
+    "longitude": 93.7797,
+    "depth_km": 18.0
+  },
+  {
     "event_id": "us6000u18k",
     "magnitude": 7.7,
     "place": "12 km WSW of Pitaloza Arriba, Panama",
