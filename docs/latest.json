@@ -2,10 +2,10 @@
   "event_id": "uw714124012",
   "magnitude": 3.0,
   "place": "3 km W of Columbia City, Oregon",
-  "origin_utc": "2026-10-22T14:25:19.290000Z",
+  "origin_utc": "2026-10-22T14:25:19.300000Z",
   "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714124012",
   "station": "R1C99",
   "channel": "EHZ",
   "image": "latest-waveform.png",
-  "updated_utc": "2026-10-22T21:38:38.274870Z"
+  "updated_utc": "2026-10-23T00:11:31.254470Z"
 }
