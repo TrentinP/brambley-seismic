@@ -1,5 +1,35 @@
 [
   {
+    "event_id": "pt26297050",
+    "magnitude": 7.0,
+    "place": "Bonin Islands, Japan region",
+    "origin_utc": "2026-10-24T02:09:00Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26297050",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/pt26297050.png",
+    "signal_score": 6.5,
+    "latitude": 28.0,
+    "longitude": 139.9,
+    "depth_km": 473.0
+  },
+  {
+    "event_id": "pt26298050",
+    "magnitude": 7.0,
+    "place": "Bonin Islands, Japan region",
+    "origin_utc": "2026-10-24T02:09:00Z",
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26298050",
+    "scope": "global",
+    "station": "R1C99",
+    "channel": "EHZ",
+    "waveform": "archive/pt26298050.png",
+    "signal_score": 6.5,
+    "latitude": 28.0,
+    "longitude": 139.9,
+    "depth_km": 473.0
+  },
+  {
     "event_id": "us6000u43g",
     "magnitude": 7.0,
     "place": "191 km ENE of Nagqu, China",

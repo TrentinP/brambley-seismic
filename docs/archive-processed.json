@@ -65,7 +65,7 @@
   },
   "us6000rsy1": {
     "status": "error",
-    "processed_utc": "2026-10-24T20:59:27.186664Z",
+    "processed_utc": "2026-10-25T05:02:57.180078Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us6000rgf4": {
@@ -97,12 +97,12 @@
   },
   "us6000qw60": {
     "status": "error",
-    "processed_utc": "2026-10-24T20:59:27.617695Z",
+    "processed_utc": "2026-10-25T05:02:57.622448Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us6000qvsf": {
     "status": "error",
-    "processed_utc": "2026-10-24T20:59:28.212206Z",
+    "processed_utc": "2026-10-25T05:02:58.178312Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us7000qdyl": {
@@ -161,7 +161,7 @@
   },
   "nc75095651": {
     "status": "error",
-    "processed_utc": "2026-10-24T20:59:28.714174Z",
+    "processed_utc": "2026-10-25T05:02:58.684987Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us7000n7n8": {
@@ -305,12 +305,12 @@
   },
   "us7000j553": {
     "status": "error",
-    "processed_utc": "2026-10-24T20:59:29.212947Z",
+    "processed_utc": "2026-10-25T05:02:59.074609Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us7000j36j": {
     "status": "error",
-    "processed_utc": "2026-10-24T20:59:29.592504Z",
+    "processed_utc": "2026-10-25T05:02:59.466554Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us7000j2yw": {
@@ -493,5 +493,15 @@
     "status": "accepted",
     "processed_utc": "2026-10-22T17:21:11.958238Z",
     "signal_score": 3.9
+  },
+  "pt26297050": {
+    "status": "accepted",
+    "processed_utc": "2026-10-25T05:02:54.480724Z",
+    "signal_score": 6.5
+  },
+  "pt26298050": {
+    "status": "accepted",
+    "processed_utc": "2026-10-25T05:02:56.684235Z",
+    "signal_score": 6.5
   }
 }
