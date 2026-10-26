@@ -1,7 +1,7 @@
 {
   "uw714124012": {
     "status": "rejected",
-    "processed_utc": "2026-10-25T11:47:56.503589Z",
+    "processed_utc": "2026-10-26T13:20:01.979854Z",
     "reason": "signal_below_threshold",
     "signal_score": 3.2
   }
