@@ -65,7 +65,7 @@
   },
   "us6000rsy1": {
     "status": "error",
-    "processed_utc": "2026-11-10T07:31:00.295770Z",
+    "processed_utc": "2026-11-10T19:52:13.458292Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "us6000rgf4": {
@@ -97,13 +97,13 @@
   },
   "us6000qw60": {
     "status": "error",
-    "processed_utc": "2026-11-10T07:31:00.903488Z",
-    "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
+    "processed_utc": "2026-11-10T19:52:13.837655Z",
+    "error": "FDSNBadGatewayException: Service responds: Bad gateway \nHTTP Status code: 502\nDetailed response of server:\n\nBad Gateway\n<html>\n<head><title>502 Bad Gateway</title></head>\n<body>\n<center><h1>502 Bad Gateway</h1></center>\n<hr><center>nginx/1.27.3</center>\n</body>\n</html>"
   },
   "us6000qvsf": {
     "status": "error",
-    "processed_utc": "2026-11-10T07:31:01.493794Z",
-    "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
+    "processed_utc": "2026-11-10T19:52:14.228373Z",
+    "error": "FDSNBadGatewayException: Service responds: Bad gateway \nHTTP Status code: 502\nDetailed response of server:\n\nBad Gateway\n<html>\n<head><title>502 Bad Gateway</title></head>\n<body>\n<center><h1>502 Bad Gateway</h1></center>\n<hr><center>nginx/1.27.3</center>\n</body>\n</html>"
   },
   "us7000qdyl": {
     "status": "accepted",
@@ -161,8 +161,8 @@
   },
   "nc75095651": {
     "status": "error",
-    "processed_utc": "2026-11-10T07:31:02.315804Z",
-    "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
+    "processed_utc": "2026-11-10T19:52:14.675267Z",
+    "error": "FDSNBadGatewayException: Service responds: Bad gateway \nHTTP Status code: 502\nDetailed response of server:\n\nBad Gateway\n<html>\n<head><title>502 Bad Gateway</title></head>\n<body>\n<center><h1>502 Bad Gateway</h1></center>\n<hr><center>nginx/1.27.3</center>\n</body>\n</html>"
   },
   "us7000n7n8": {
     "status": "accepted",
@@ -305,18 +305,18 @@
   },
   "us7000j553": {
     "status": "error",
-    "processed_utc": "2026-11-10T07:31:02.875855Z",
-    "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
+    "processed_utc": "2026-11-10T19:52:15.219704Z",
+    "error": "FDSNBadGatewayException: Service responds: Bad gateway \nHTTP Status code: 502\nDetailed response of server:\n\nBad Gateway\n<html>\n<head><title>502 Bad Gateway</title></head>\n<body>\n<center><h1>502 Bad Gateway</h1></center>\n<hr><center>nginx/1.27.3</center>\n</body>\n</html>"
   },
   "us7000j36j": {
     "status": "error",
-    "processed_utc": "2026-11-10T07:31:03.476386Z",
-    "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
+    "processed_utc": "2026-11-10T19:52:15.574263Z",
+    "error": "FDSNBadGatewayException: Service responds: Bad gateway \nHTTP Status code: 502\nDetailed response of server:\n\nBad Gateway\n<html>\n<head><title>502 Bad Gateway</title></head>\n<body>\n<center><h1>502 Bad Gateway</h1></center>\n<hr><center>nginx/1.27.3</center>\n</body>\n</html>"
   },
   "us7000j2yw": {
     "status": "error",
-    "processed_utc": "2026-11-10T07:31:04.071321Z",
-    "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
+    "processed_utc": "2026-11-10T19:52:15.969790Z",
+    "error": "FDSNBadGatewayException: Service responds: Bad gateway \nHTTP Status code: 502\nDetailed response of server:\n\nBad Gateway\n<html>\n<head><title>502 Bad Gateway</title></head>\n<body>\n<center><h1>502 Bad Gateway</h1></center>\n<hr><center>nginx/1.27.3</center>\n</body>\n</html>"
   },
   "us7000ishe": {
     "status": "accepted",
@@ -476,7 +476,7 @@
   },
   "us6000dher": {
     "status": "error",
-    "processed_utc": "2026-11-10T07:31:04.651873Z",
+    "processed_utc": "2026-11-10T19:52:16.454450Z",
     "error": "FDSNNoDataException: No data available for request.\nHTTP Status code: 204\nDetailed response of server:\n\n"
   },
   "uw714111952": {
