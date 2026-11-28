@@ -1,13 +1,1 @@
-[
-  {
-    "event_id": "uw714140682",
-    "magnitude": 3.4,
-    "place": "0 km W of Lea Hill, Washington",
-    "origin_utc": "2026-11-21T07:13:12.330000Z",
-    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714140682",
-    "station": "R1C99",
-    "channel": "EHZ",
-    "waveform": "recent-captures/uw714140682.png",
-    "signal_score": 6.3
-  }
-]
+[]
